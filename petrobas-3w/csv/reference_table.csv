@@ -1,0 +1,31 @@
+Label,Description
+timestamp,Instant at which observation was generated
+ABER-CKGL,Opening of the GLCK (gas lift choke) [%%]
+ABER-CKP,Opening of the PCK (production choke) [%%]
+ESTADO-DHSV,"State of the DHSV (downhole safety valve) [0, 0.5, or 1]"
+ESTADO-M1,"State of the PMV (production master valve) [0, 0.5, or 1]"
+ESTADO-M2,"State of the AMV (annulus master valve) [0, 0.5, or 1]"
+ESTADO-PXO,"State of the PXO (pig-crossover) valve [0, 0.5, or 1]"
+ESTADO-SDV-GL,"State of the gas lift SDV (shutdown valve) [0, 0.5, or 1]"
+ESTADO-SDV-P,"State of the production SDV (shutdown valve) [0, 0.5, or 1]"
+ESTADO-W1,"State of the PWV (production wing valve) [0, 0.5, or 1]"
+ESTADO-W2,"State of the AWV (annulus wing valve) [0, 0.5, or 1]"
+ESTADO-XO,"State of the XO (crossover) valve [0, 0.5, or 1]"
+P-ANULAR,Pressure in the well annulus [Pa]
+P-JUS-BS,Downstream pressure of the SP (service pump) [Pa]
+P-JUS-CKGL,Downstream pressure of the GLCK (gas lift choke) [Pa]
+P-JUS-CKP,Downstream pressure of the PCK (production choke) [Pa]
+P-MON-CKGL,Upstream pressure of the GLCK (gas lift choke) [Pa]
+P-MON-CKP,Upstream pressure of the PCK (production choke) [Pa]
+P-MON-SDV-P,Upstream pressure of the production SDV (shutdown valve) [Pa]
+P-PDG,Pressure at the PDG (permanent downhole gauge) [Pa]
+PT-P,Downstream pressure of the PWV (production wing valve) in the production tube [Pa]
+P-TPT,Pressure at the TPT (temperature and pressure transducer) [Pa]
+QBS,Flow rate at the SP (service pump) [m3/s]
+QGL,Gas lift flow rate [m3/s]
+T-JUS-CKP,Downstream temperature of the PCK (production choke) [oC]
+T-MON-CKP,Upstream temperature of the PCK (production choke) [oC]
+T-PDG,Temperature at the PDG (permanent downhole gauge) [oC]
+T-TPT,Temperature at the TPT (temperature and pressure transducer) [oC]
+class,Label of the observation
+state,Well operational status
